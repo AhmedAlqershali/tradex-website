@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tradex يجمع المتاجر والمنتجات المحلية في مكان واحد. اكتشف المتاجر، تصفح المنتجات، وأرسل طلبك بسهولة."
+    />
+    <meta
+      property="og:title"
+      content="Tradex | اكتشف المتاجر والمنتجات المحلية"
+    />
+    <meta
+      property="og:description"
+      content="Tradex يجمع المتاجر والمنتجات المحلية في مكان واحد. اكتشف المتاجر، تصفح المنتجات، وأرسل طلبك بسهولة."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/logo-mark.svg" />
+    <meta name="theme-color" content="#1f6fff" />
+    <title>Tradex | اكتشف المتاجر والمنتجات المحلية</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrapper">
+        <a href="#home" class="brand" aria-label="Tradex الصفحة الرئيسية">
+          <img src="assets/logo-mark.svg" alt="شعار Tradex" class="brand-mark" />
+          <span>Tradex</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="فتح القائمة"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav" aria-label="القائمة الرئيسية">
+          <a href="#home">الرئيسية</a>
+          <a href="#features">المميزات</a>
+          <a href="#how-it-works">كيف يعمل</a>
+          <a href="#merchants">للتجار</a>
+          <a href="#download" class="btn btn-primary btn-small" data-download>
+            تحميل التطبيق
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-inner">
+          <div class="hero-copy reveal">
+            <span class="eyebrow">متجر محلي • منتجات • طلبات</span>
+            <h1>كل متاجرك المحلية في مكان واحد</h1>
+            <p>
+              اكتشف المتاجر والمنتجات المحلية، تصفح بسهولة، وأرسل طلبك مباشرة
+              من خلال Tradex.
+            </p>
+
+            <div class="cta-group">
+              <a href="#download" class="btn btn-primary" data-download>
+                تحميل التطبيق
+              </a>
+              <a href="#how-it-works" class="btn btn-secondary">
+                شاهد كيف يعمل
+              </a>
+            </div>
+
+            <ul class="mini-points" aria-label="مزايا التطبيق">
+              <li>تصفح متاجر محلية</li>
+              <li>اكتشف منتجات متنوعة</li>
+              <li>تواصل مباشرة مع المتجر</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual reveal" aria-label="تمثيل التطبيق">
+            <div class="phone-frame">
+              <div class="phone-notch"></div>
+
+              <div class="screen-content">
+                <div class="screen-topbar">
+                  <span class="chip">Tradex</span>
+                  <span class="dot-group" aria-hidden="true">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </span>
+                </div>
+
+                <div class="store-card large">
+                  <div class="store-header">
+                    <div class="avatar"></div>
+                    <div>
+                      <strong>مخبز الحي</strong>
+                      <small>مفتوح الآن</small>
+                    </div>
+                  </div>
+                  <div class="product-grid">
+                    <div class="product-tile product-one"></div>
+                    <div class="product-tile product-two"></div>
+                    <div class="product-tile product-three"></div>
+                    <div class="product-tile product-four"></div>
+                  </div>
+                </div>
+
+                <div class="list-card">
+                  <div class="list-row">
+                    <span class="tiny-badge">مميز</span>
+                    <strong>ميني كيك</strong>
+                    <em>١٥ ر.س</em>
+                  </div>
+                  <div class="list-row">
+                    <span class="tiny-badge alt">مميز</span>
+                    <strong>قهوة عربية</strong>
+                    <em>١٢ ر.س</em>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-strip" aria-label="القيم الرئيسية">
+        <div class="container trust-grid">
+          <div class="trust-item reveal">
+            <span class="trust-icon" aria-hidden="true"></span>
+            <span>متاجر محلية</span>
+          </div>
+          <div class="trust-item reveal">
+            <span class="trust-icon" aria-hidden="true"></span>
+            <span>منتجات متنوعة</span>
+          </div>
+          <div class="trust-item reveal">
+            <span class="trust-icon" aria-hidden="true"></span>
+            <span>تجربة سهلة</span>
+          </div>
+          <div class="trust-item reveal">
+            <span class="trust-icon" aria-hidden="true"></span>
+            <span>أدوات ذكية للتجار</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container section-header reveal">
+          <span class="section-kicker">ما هو Tradex؟</span>
+          <h2>منصة تجمع المتاجر المحلية والمنتجات في تجربة متكاملة.</h2>
+        </div>
+
+        <div class="container about-grid">
+          <div class="about-copy reveal">
+            <p>
+              Tradex يساعد المستخدمين على اكتشاف المتاجر المحلية والتسوق من
+              المنتجات التي يحتاجونها في مكان واحد، بواجهة سهلة وتخطيط واضح.
+              من البحث إلى الطلب، كل خطوة مصممة لتجعل التسوق المحلي أكثر سلاسة
+              وثقة.
+            </p>
+          </div>
+
+          <div class="about-panel reveal" aria-label="ماذا يقدم Tradex">
+            <ul>
+              <li>تصفح المتاجر المفضلة لديك</li>
+              <li>استكشاف المنتجات بسهولة</li>
+              <li>إضافة المنتجات إلى السلة</li>
+              <li>إرسال الطلب بشكل مباشر</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="container section-header reveal">
+          <span class="section-kicker">المميزات</span>
+          <h2>كل ما تحتاجه لتجربة تسوق محلية أنيقة وسريعة.</h2>
+        </div>
+
+        <div class="container feature-grid">
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M11 3.5a6.5 6.5 0 0 1 6.5 6.5c0 3.64-2.79 6.4-6.23 6.48L11 16.5l-6.5-6.5h4V7h5.5v2.5h2.5V10c0-3.59 1.38-5.5 5.5-5.5z" />
+              </svg>
+            </div>
+            <h3>اكتشف المتاجر</h3>
+            <p>تصفح المتاجر المحلية واكتشف ما تقدمه بسهولة ووضوح.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 7.5A2.5 2.5 0 0 1 7.5 5h9A2.5 2.5 0 0 1 19 7.5v9A2.5 2.5 0 0 1 16.5 19h-9A2.5 2.5 0 0 1 5 16.5v-9Zm2 1.5h10v7H7V9Zm3 2v3h4v-3h-4Z" />
+              </svg>
+            </div>
+            <h3>اكتشف المنتجات</h3>
+            <p>شاهد المنتجات والصور والأسعار بطريقة مباشرة وسريعة.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7 5.5h10a2 2 0 0 1 2 2V18l-3-2-2 2-2-2-2 2-2-2-3 2V7.5a2 2 0 0 1 2-2Zm2 3h6v2H9v-2Zm0 4h6v2H9v-2Z" />
+              </svg>
+            </div>
+            <h3>سلة التسوق</h3>
+            <p>اجمع المنتجات التي تريدها في سلة واحدة بواجهة واضحة.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2.5a9.5 9.5 0 1 1 0 19 9.5 9.5 0 0 1 0-19Zm1 4.5h-2v5.5l4.75 2.75 1-1.73-3.75-2.25V7Z" />
+              </svg>
+            </div>
+            <h3>اطلب بسهولة</h3>
+            <p>أرسل طلبك للمتجر بطريقة بسيطة ومنظمة دون تعقيد.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v11a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 17.5v-11Zm3 2.5h10v2H7V9Zm0 4h7v2H7v-2Z" />
+              </svg>
+            </div>
+            <h3>تواصل مع المتجر</h3>
+            <p>يتواصل معك المتجر لتأكيد تفاصيل الطلب ومتابعة التنفيذ.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2.5a8.5 8.5 0 1 1 0 17 8.5 8.5 0 0 1 0-17Zm-1 4.5h2v5.5h3v2h-5V7Z" />
+              </svg>
+            </div>
+            <h3>أدوات AI للتجار</h3>
+            <p>أنشئ أوصاف المنتجات والمحتوى التسويقي بشكل أسرع وأكثر فاعلية.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section process" id="how-it-works">
+        <div class="container section-header reveal">
+          <span class="section-kicker">كيف يعمل</span>
+          <h2>بضع خطوات فقط بين الاكتشاف والطلب.</h2>
+        </div>
+
+        <div class="container process-grid">
+          <div class="step-card reveal">
+            <span class="step-number">01</span>
+            <h3>اكتشف</h3>
+            <p>ابحث عن المتجر أو المنتج الذي تبحث عنه.</p>
+          </div>
+
+          <div class="step-card reveal">
+            <span class="step-number">02</span>
+            <h3>تصفح</h3>
+            <p>استكشف المنتجات، الصور، التفاصيل، والسعر بسهولة.</p>
+          </div>
+
+          <div class="step-card reveal">
+            <span class="step-number">03</span>
+            <h3>أضف للسلة</h3>
+            <p>اختر المنتجات التي تريدها في سلة واحدة.</p>
+          </div>
+
+          <div class="step-card reveal">
+            <span class="step-number">04</span>
+            <h3>أرسل طلبك</h3>
+            <p>أرسل الطلب وتواصل مع المتجر لتأكيده مباشرة.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section preview" id="preview">
+        <div class="container section-header reveal">
+          <span class="section-kicker">معاينة التطبيق</span>
+          <h2>واجهة جاهزة لتستقبل لقطات التطبيق الرسمية لاحقاً.</h2>
+        </div>
+
+        <div class="container preview-shell reveal">
+          <div class="screen-card">
+            <div class="screen-header">
+              <span class="screen-pill">المتاجر</span>
+            </div>
+            <div class="placeholder-layout">
+              <div class="placeholder-box tall"></div>
+              <div class="placeholder-box tall alt"></div>
+              <div class="placeholder-box medium"></div>
+            </div>
+          </div>
+
+          <div class="screen-card large-screen">
+            <div class="screen-header">
+              <span class="screen-pill">المنتجات</span>
+            </div>
+            <div class="placeholder-layout columns">
+              <div class="placeholder-box wide"></div>
+              <div class="placeholder-box wide"></div>
+              <div class="placeholder-box wide"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section merchants" id="merchants">
+        <div class="container merchants-layout">
+          <div class="merchants-copy reveal">
+            <span class="section-kicker">للتجار</span>
+            <h2>أنت تاجر؟ Tradex يساعدك توصل لعملاء أكثر.</h2>
+            <p>
+              أوجد متجرك، اعرض منتجاتك، واستقبل الطلبات من عملاء محليين يبحثون
+              عن ما تقدمه، مع تجربة مريحة تدعم نمو تجارتك.
+            </p>
+          </div>
+
+          <div class="merchants-panel reveal">
+            <ul>
+              <li>إنشاء وإدارة المتجر</li>
+              <li>عرض المنتجات والتفاصيل</li>
+              <li>استقبال الطلبات بسهولة</li>
+              <li>أدوات AI للمحتوى التسويقي</li>
+            </ul>
+            <a href="#download" class="btn btn-primary" data-download>
+              انضم إلى Tradex
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section ai-section" id="ai">
+        <div class="container ai-layout">
+          <div class="ai-copy reveal">
+            <span class="section-kicker">الذكاء الاصطناعي</span>
+            <h2>خلّي الذكاء الاصطناعي يساعدك في التسويق.</h2>
+            <p>
+              يمكن للتجار استخدام أدوات Tradex AI لتوليد أوصاف المنتجات والمحتوى
+              التسويقي بسرعة أكبر، مما يساعدهم في تقديم عروض أكثر احترافية
+              وتواصل أفضل مع العملاء.
+            </p>
+          </div>
+
+          <div class="ai-visual reveal" aria-label="أدوات AI للتجار">
+            <div class="ai-card">
+              <div class="ai-badge">AI</div>
+              <h3>وصف المنتج</h3>
+              <p>أداة تساعدك في كتابة وصف احترافي للمنتج في دقائق.</p>
+            </div>
+            <div class="ai-card soft">
+              <div class="ai-badge">AI</div>
+              <h3>محتوى تسويقي</h3>
+              <p>أنشئ رسائل ترويجية وأفكار محتوى جذابة بسرعة.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section video-section" id="video">
+        <div class="container section-header reveal">
+          <span class="section-kicker">فيديو توضيحي</span>
+          <h2>تعرّف أكثر على تجربة Tradex في دقائق.</h2>
+        </div>
+
+        <div class="container video-wrap reveal">
+          <div class="video-frame">
+            <iframe
+              src="https://www.youtube.com/embed/U5cUozGpiLg"
+              title="Tradex فيديو توضيحي"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta" id="download">
+        <div class="container cta-box reveal">
+          <span class="section-kicker light">جاهز تكتشف Tradex؟</span>
+          <h2>حمّل التطبيق وابدأ باكتشاف المتاجر والمنتجات المحلية.</h2>
+          <a href="#" class="btn btn-primary btn-lg" data-download>
+            تحميل Tradex
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="brand footer-brand-link">
+            <img src="assets/logo-mark.svg" alt="شعار Tradex" class="brand-mark" />
+            <span>Tradex</span>
+          </a>
+          <p>منصة تجمع المتاجر المحلية والمنتجات في تجربة تسوق مريحة.</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#" data-social="instagram">Instagram</a>
+          <a href="#" data-social="facebook">Facebook</a>
+        </div>
+
+        <div class="footer-copy">© 2026 Tradex. جميع الحقوق محفوظة.</div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
