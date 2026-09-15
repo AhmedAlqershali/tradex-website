@@ -1,4 +1,4 @@
-const DOWNLOAD_URL = "https://appteka.store/apps/680r319652";
+const DOWNLOAD_URL = "https://appteka.store/app/cd7r320736";
 const INSTAGRAM_URL = "https://instagram.com/";
 const FACEBOOK_URL = "https://facebook.com/";
 
